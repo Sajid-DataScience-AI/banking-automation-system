@@ -16,6 +16,7 @@ A *Banking Automation System* built using *Python
 - *SQLite* (Database)  
 - *Pillow (PIL)* (Image handling)  
 - *Regex* (Validations)
+- 
 Note: also install gmail library for email notification and change your email & app_pass in email_test.py file
 
 🔐 Admin Login
