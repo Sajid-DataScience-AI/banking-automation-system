@@ -1,7 +1,7 @@
 import gmail
 #Put your email and app password
 email_id="sajid@gmail.com"
-app_pass="yqei zjnk kvbr alqm"
+app_pass="yq zjnk kr alm"
 con=gmail.GMail("02kingofwar455@gmail.com","")
 
 def send_openacn_ack(uemail,uname,uacn,upass):
@@ -50,4 +50,5 @@ def  send_otp_4_pass(uemail,otp):
      Noida
     """
     msg=gmail.Message(to=uemail,subject=sub,text=utext)
+
     con.send(msg)       
